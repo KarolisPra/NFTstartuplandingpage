@@ -1,0 +1,292 @@
+body, 
+p, 
+h1, 
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+margin: 60px;
+}
+
+
+.header-navigation{
+    display: flex;
+
+}
+
+
+.header-navigation a{
+padding: 0 15px;
+text-decoration: none;
+font-size: 22px;
+color: #808080;
+}
+
+
+.header-navigation a:hover {
+    color: #585858;
+    transition: 500ms;
+}
+
+
+.header-navigation :last-child a{
+    color: 	#ff4da6;
+
+}
+
+.header-navigation :last-child a:hover{
+color: #ffb3d9;
+
+}
+
+
+.launching-updates{
+display: flex;
+justify-content: space-between;
+margin: 60px;
+}
+
+.launching-updates-text-side{
+    padding-top: 60px;
+}
+
+.launching-updates-img-side{
+    margin: -40px 20px 0px 0px;
+}
+.launching-updates-text-side h2 {
+    color: #ff4da6;
+    font-size: 19px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.launching-updates-text-side h1{
+    font-size: 100px;
+   margin: 20px 0px 20px 0px;
+}
+
+
+.launching-updates-text-side p{
+font-size: 20px;
+text-align: left;
+color: #808080;
+margin: 20px 0px 20px 0px;
+}
+
+.launching-updates-button{
+    background: white;
+    border-radius: 60px;
+    font-size: 21px;
+    padding: 25px 60px 25px 60px;
+    font-weight:500;
+    border-width: 4px;
+    border-color: #ff4da6;
+    margin: 20px 0px 20px 0px;
+}
+
+.launching-updates-button:hover{
+    background-color: #efa6ca;
+    transition: 500ms;
+    cursor: pointer;
+
+}
+
+
+.launching-updates-freeNFT{
+margin: 60px;
+margin-top: -60px;
+background-image: url('background.svg');
+border-radius: 10px;
+height: 45vh;
+background-size: cover;
+
+}
+
+
+
+.launching-updates-freeNFT h2{
+    font-size: 40px;
+font-weight: 400;
+padding:120px 60px 00px 60px; 
+}
+
+.Companies-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 40px 0px 40px 0px;
+}
+
+.launching-updates-freeNFT p{
+    font-size: 20px;
+    margin-left: 60px;
+    
+}
+
+.NFTchoice{
+    margin: 60px;
+    
+}
+.NFTchoice p a{
+    color: #808080;
+}
+.NFTchoice h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.NFTchoice p{
+    color: #808080;
+    font-size: 20px;
+}
+
+    
+
+.purpleman, .Beige, .redman, .Greengirl{
+    background-color: #dddddd;
+    height: 400px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.NFTs{
+display: flex;
+justify-content: space-between;
+margin-top: 60px;
+}
+
+
+.GLOOP{
+    color: rgb(227, 145, 22);
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.BID{
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    /* text-align: right; */
+    padding-top: 20px;
+}
+.nftname{
+    color: black;
+    font-size: 18px;
+   
+}
+
+
+.launching-updates-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(237, 237, 237);
+
+    }
+.launching-updates-img-side-footer{
+     margin: 80px 300px 0px 0px;
+    }
+    
+    .launching-updates-text-side-footer{
+        padding-top: 60px;
+    }
+    
+
+    .launching-updates-text-side-footer h2 {
+        color: #ff4da6;
+        font-size: 19px;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    
+    .launching-updates-text-side-footer h1{
+        font-size: 60px;
+       margin: 20px 0px 20px 0px;
+    }
+    
+    
+    .launching-updates-text-side-footer p{
+    font-size: 20px;
+    text-align: left;
+    color: #808080;
+    margin: 20px 0px 20px 0px;
+    }
+    
+    .launching-updates-footer-button{
+        background: white;
+        border-radius: 60px;
+        font-size: 21px;
+        padding: 25px 60px 25px 60px;
+        font-weight:500;
+        border-width: 4px;
+        border-color: #ff4da6;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .launching-updates-footer-button:hover{
+        background-color: #efa6ca;
+        transition: 500ms;
+        cursor: pointer;
+    
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px;
+
+    }
+
+    .footer-logo-side p {
+        color: #4b4a4a;
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+.footer-navigation-side{
+    display: flex;
+        justify-content: space-between;
+
+}
+    .footertable{
+padding-right: 200px;
+    }
+    .footertable th,td{
+       padding-left: 50px;
+       font-size: 18px;
+       color: #4b4a4a;
+    }
+ 
+    .footertable th{
+padding-bottom: 20px;
+font-weight: 400;
+text-align: left;
+    }
+    
+
+    .footertable td a{
+text-decoration: none;
+color:#313131;
+font-size: 20px;
+text-align: left;
+font-weight: 300;
+    }
+
+    .footertable td a:hover{
+        color: #808080;
+    
+    }
+    .copyright{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px;
+        color: #808080;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+   
